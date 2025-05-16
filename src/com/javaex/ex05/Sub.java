@@ -5,37 +5,25 @@ public class Sub {
     private int a;
     private int b;
     
-    public Sub() {
-    	
-    }
-    
-    public Sub(int a, int b) {
-		super();
-		this.a = a;
-		this.b = b;
-	}
-
-	public void setValue(int a, int b) {
-		
+    public void setValue(int a, int b) {
     }
 
-    public int calculate() {
-		return a;
+    public static int calculate(int a, int b) {
+    	return a-b;
     }
-	
 
-	
-	
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }
+	
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+

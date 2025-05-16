@@ -8,7 +8,8 @@ public class Mul {
     public void setValue(int a, int b) {
     }
 
-    public int calculate() {
+    public int calculate(int a, int b) {
+    	return a*b;
     }
 
 }
